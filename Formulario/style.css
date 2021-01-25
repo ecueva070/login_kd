@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('bw.png');
+    background-position: center;
+    background-size: 115%;
+}
+
+.form-login {
+    width: 400px;
+    height: 360px;
+    border-radius: 20px;
+    background: rgb(16, 158, 194);
+    opacity: 0.9;
+    /*Este sirve para hacer trasparente el form*/
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 13px 77px rgb(14, 12, 12);
+    padding: 20px 30px;
+    border-top: 4px solid #087ba8;
+    color: rgb(255, 255, 255);
+}
+
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #1ba9e0;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #c5c3c3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    border-radius: 5px;
+    /*Este sirve para redondear las esquinas*/
+    height: 45px;
+    background: #087ba8;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.buttons:hover {
+    /*hover es para declarar las caracteristicas
+     del elemento al colocar el puntero sobre de el*/
+    width: 100%;
+    border-radius: 5px;
+    height: 44px;
+    background: #1b6886;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.212);
+    margin-bottom: 17px;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+.logo1 {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
