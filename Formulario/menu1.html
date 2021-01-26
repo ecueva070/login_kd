@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Control Escolar</title>
+    <link rel="stylesheet" href="styless.css">
+    <!--Link a CSS-->
+
+    <meta name="description" content="Control escolar KD Beauty" />
+    <meta name="author" content="Emanuel Cueva" />
+</head>
+<header>
+    <div>
+        <!--Se agrega div para poder centrar el logo-->
+        <img class="logo1" src="logo_kd.png" alt="">
+        <ul id="menus">
+            <li><a href=menu1.html>Registro de Alumnos</a></li>
+            <li><a href=menu2.html>Pagos y Asistencias</a></li>
+            <li><a href=menu3.html>Reporte de Pagos</a></li>
+            <li><a href=menu4.html>Reporte de Asistencias</a></li>
+            <li><a href=index.html>Salir</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <section class="formulario">
+        <h5>Registro de Alumnos</h5>
+        <input class="controls" type="text" name="apellidos" value="" placeholder="Apellidos">
+        <input class="controls" type="text" name="nombres" value="" placeholder="Nombres">
+        <input class="controls" type="date" name="fechanac" value="" placeholder="Fecha de Nacimiento">
+        <select class="controls" name="genero">
+            <option value="0">Elige un género </option>
+            <optgroup label="Elige un género"> 
+            <option value="1">Femenino</option> 
+            <option value="2">Masculino</option> 
+         </select>
+    </section>
+    <section class="formulario">
+        <h5>Datos de Ubicación</h5>
+        <input class="controls" type="text" name="domicilio" value="" placeholder="Domicilio">
+        <input class="controls" type="text" name="pais" value="" placeholder="País">
+        <input class="controls" type="text" name="estado" value="" placeholder="Estado">
+        <input class="controls" type="text" name="municipio" value="" placeholder="Municipio">
+    </section>
+    <section class="formulario">
+        <h5>Datos de Contacto</h5>
+        <input class="controls" type="tel" name="celular" value="" placeholder="WhatsApp">
+        <input class="controls" type="email" name="email" value="" placeholder="e-mail">
+        <input class="controls" type="text" name="facebook" value="" placeholder="Facebook">
+        <input class="controls" type="text" name="instagram" value="" placeholder="Instagram">
+    </section>
+    <section class="formulario">
+        <h5>Datos de emergencia</h5>
+        <input class="controls" type="text" name="contemerg" value="" placeholder="Nombre del Contacto">
+        <input class="controls" type="tel" name="telemerg" value="" placeholder="Teléfono de emergencia">
+        <select class="controls" name="sangre">
+            <option value="">Elige un tipo de sangre </option>
+            <optgroup label="A"> 
+            <option value="1">RH A +</option> 
+            <option value="2">RH A-</option> 
+            <optgroup label="B"></optgroup>
+            <option value="3">RH B +</option> 
+            <option value="4">RH B -</option>
+            <optgroup label="O"></optgroup>
+            <option value="5">RH O +</option> 
+            <option value="6">RH O -</option> 
+            <optgroup label="AB"></optgroup>
+            <option value="7">RH AB +</option> 
+            <option value="8">RH AB -</option>
+         </select>
+        <input class="controls" type="text" name="observaemerg" value="" placeholder="Observaciones">
+    </section>
+    <section class="formulario">
+        <h5>Información de Curso</h5>
+        <select class="controls" name="cursos">
+            <option value="0">Elige un Curso </option>
+            <optgroup label="Diplomados"> 
+            <option value="1">Estilismo Profesional</option> 
+            <option value="2">Barbería</option> 
+            <option value="3">Barbería y corte</option>
+            <option value="4">Uñas con Tip</option>
+            <option value="5">Uñas Esculturales</option>   
+            <option value="6">Gel y decoración</option>
+            <option value="7">Manicure y Pedicure</option>
+            <option value="8">Maquillaje Profesional</option>
+            <option value="9">Colorimetría</option>
+            <option value="10">Peinado</option>    
+            <optgroup label="Workshop"></optgroup>
+            <option value="11">Automaquillaje</option> 
+            <option value="12">Pestañas tipo mink</option>
+            <option value="13">Ceja HD</option>
+            <option value="14">Masajes Relajantes</option>
+            <option value="15">Masajes Reductivos</option>
+            <option value="16">Faciales</option> 
+            <option value="17">Manicura Rusa</option> 
+            <option value="18">Redes Sociales</option>
+            <option value="19">Colorimetría</option>  
+        </select>
+        <select class="controls" name="modalidad">
+             <option value="0">Elige una modalidad</option>
+             <option value="1">Presencial</option> 
+             <option value="2">Online</option> 
+         </select>
+        <select class="controls" name="ritmo">
+            <option value="0">Elige el ritmo del curso</option>
+            <option value="1">Intensivo</option> 
+            <option value="2">Moderado</option> 
+        </select>
+        <input class="controls" type="checkbox" name="díasasistir1" value="">Lunes
+        <input class="controls" type="checkbox" name="díasasistir2" value="">Martes
+        <input class="controls" type="checkbox" name="díasasistir3" value="">Miércoles
+        <input class="controls" type="checkbox" name="díasasistir4" value="">Jueves
+        <input class="controls" type="checkbox" name="díasasistir5" value="">Sábado
+        <input class="buttons" type="submit" name="" value="Ingresar">
+    </section>
+
+</body>
