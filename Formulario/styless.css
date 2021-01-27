@@ -18,7 +18,7 @@ body {
     height: 50px;
     border-radius: 20px;
     background: rgb(59, 171, 189);
-    opacity: 0.8;
+    opacity: 0.85;
     /*Este sirve para hacer trasparente el form*/
     margin: auto;
     margin-top: 0;
@@ -103,10 +103,37 @@ body {
     margin-bottom: 16px;
 }
 
+.button1 {
+    width: 50%;
+    border-radius: 5px;
+    /*Este sirve para redondear las esquinas*/
+    height: 45px;
+    background: #087ba8;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
 .buttons:hover {
     /*hover es para declarar las caracteristicas
      del elemento al colocar el puntero sobre de el*/
     width: 100%;
+    border-radius: 5px;
+    height: 44px;
+    background: #1b6886;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.212);
+    margin-bottom: 17px;
+}
+
+.button1:hover {
+    /*hover es para declarar las caracteristicas
+     del elemento al colocar el puntero sobre de el*/
+    width: 50%;
     border-radius: 5px;
     height: 44px;
     background: #1b6886;
