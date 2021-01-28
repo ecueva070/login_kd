@@ -11,5 +11,17 @@ function buscarusua() {
     } else {
         console.log('Usuario o contraseña incorrecta')
         window.alert("Contraseña Incorrecta")
+        document.getElementById('usuario').value = ""
+        document.getElementById('contrasena').value = ""
+        document.getElementById('usuario').focus()
     }
+}
+
+function pulsarenter(e) {
+    tecla = (document.all) ? e.keyCode : e.which;
+    if (tecla == 13) buscarusua(); {
+
+    }
+
+
 }
