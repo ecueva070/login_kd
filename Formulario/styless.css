@@ -57,6 +57,7 @@ body {
 }
 
 .formulario {
+    position: relative;
     width: 800px;
     height: 400px;
     border-radius: 20px;
@@ -78,6 +79,16 @@ body {
     margin-bottom: 30px;
     border-bottom: 1px solid;
     font-size: 20px;
+}
+
+.formulario1 h2 {
+    margin: 10px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 30px;
 }
 
 .controls {
@@ -104,7 +115,23 @@ body {
 }
 
 .button1 {
-    width: 50%;
+    width: 40%;
+    align-items: center;
+    border-radius: 5px;
+    /*Este sirve para redondear las esquinas*/
+    height: 45px;
+    background: #087ba8;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.button2 {
+    width: 40%;
+    align-items: center;
+    float: right;
     border-radius: 5px;
     /*Este sirve para redondear las esquinas*/
     height: 45px;
@@ -133,8 +160,23 @@ body {
 .button1:hover {
     /*hover es para declarar las caracteristicas
      del elemento al colocar el puntero sobre de el*/
+    width: 40%;
+    border-radius: 5px;
+    height: 44px;
+    background: #1b6886;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.212);
+    margin-bottom: 17px;
+}
+
+.button2:hover {
+    /*hover es para declarar las caracteristicas
+     del elemento al colocar el puntero sobre de el*/
     width: 50%;
     border-radius: 5px;
+    float: right;
     height: 44px;
     background: #1b6886;
     border: none;
@@ -152,7 +194,7 @@ body {
 
 .formulario1 {
     width: 800px;
-    height: 700px;
+    height: 500px;
     border-radius: 20px;
     background: rgb(107, 161, 175);
     opacity: 0.8;
@@ -169,6 +211,7 @@ body {
     height: 40px;
     text-align: center;
     border-bottom: 1px;
+    border-top: 1px;
 }
 
 .formulario1 h5 {
