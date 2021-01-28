@@ -149,3 +149,33 @@ body {
     text-align: center;
     border-bottom: 1px;
 }
+
+.formulario1 {
+    width: 800px;
+    height: 700px;
+    border-radius: 20px;
+    background: rgb(107, 161, 175);
+    opacity: 0.8;
+    /*Este sirve para hacer trasparente el form*/
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 13px 77px rgb(14, 12, 12);
+    padding: 20px 30px;
+    border-top: 4px solid #087ba8;
+    color: rgb(255, 255, 255);
+}
+
+.formulario1 p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px;
+}
+
+.formulario1 h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
