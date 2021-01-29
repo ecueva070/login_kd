@@ -27,13 +27,14 @@
 <body>
     <section class="formulario1">
         <h5>Reporte de Pagos</h5>
-        <input class="controls" type="text" id="matricula" value="" placeholder="Matricula">
-        <input class="button1" type="submit" name="buscar" value="Buscar">
-        <h2> Jessica Nayeli Contreras Zamora</h2>
+        <input class="controls" type="text" id="matricula" value="" placeholder="Matricula" onkeypress="pulsarenter1(event)">
+        <input class="button1" type="submit" name="buscar" value="Buscar" onclick="buscaralumno()">
+        <h2 id="NombreAlumno">Alumno</h2>
         <h3>Selecciona Rango</h3>
         <input class="controls" type="date" id="fechaini" value="" placeholder="Del día...">
         <input class="controls" type="date" id="fechafin" value="" placeholder="...al día">
         <input class="button1" type="submit" name="genreportpago" value="Generar Reporte">
 
     </section>
+    <script src="app.js"></script>
 </body>

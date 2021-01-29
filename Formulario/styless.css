@@ -174,7 +174,7 @@ body {
 .button2:hover {
     /*hover es para declarar las caracteristicas
      del elemento al colocar el puntero sobre de el*/
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     float: right;
     height: 44px;
